@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,6 +17,7 @@ public class TcpConnectionLogic : MonoBehaviour
     public Button m_CloseBtn;
 
     public Text m_NameTxt;
+    public TextMeshProUGUI m_MsgTxt;
 
 
     Coroutine m_HeartBeadCoroutine;
