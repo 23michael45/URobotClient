@@ -11,7 +11,9 @@ public class MainUILogic : MonoBehaviour
     public GameObject m_Content;
 
 
+    [HideInInspector]
     public string m_TcpIP;
+    [HideInInspector]
     public int m_TcpPort;
 
     private void Awake()

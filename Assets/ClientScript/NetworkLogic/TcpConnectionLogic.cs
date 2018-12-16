@@ -21,6 +21,7 @@ public class TcpConnectionLogic : MonoBehaviour
 
     AsyncTcpClient m_TcpClient;
 
+    [HideInInspector]
     public MainUILogic m_ParentUILogic;
     // Start is called before the first frame update
     void Start()

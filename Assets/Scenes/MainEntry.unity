@@ -222,7 +222,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 107040742}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ccf45dc8d086e6545a4857d03eac1e28, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a746e6c13602ae45a2ec494a9a53659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_CreatConnectionBtn: {fileID: 388002156}
@@ -310,7 +310,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1322654899}
-        m_MethodName: OnStartHeartBeat
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -518,7 +518,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1322654899}
-        m_MethodName: OnConnect
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -790,7 +790,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1322654899}
-        m_MethodName: OnSendReqMove
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1008,7 +1008,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1322654899}
-        m_MethodName: OnClose
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1231,7 +1231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b44018a3695dfc40bd063659fbaefd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ConnectBtn: {fileID: 0}
+  m_ConnectBtn: {fileID: 388002156}
   m_CloseBtn: {fileID: 1067799458}
 --- !u!1 &1346393230
 GameObject:
@@ -1471,7 +1471,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1322654899}
-        m_MethodName: OnSendReqSignin
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1600,7 +1600,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1322654899}
-        m_MethodName: OnStopHeartBeat
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1763,7 +1763,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1640038718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa8840aa81c95e4e981ed67bf5c0e4a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d4eeaf0682857d4fbfe1f5c2e1aae15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_LoginBtn: {fileID: 1434753325}

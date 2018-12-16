@@ -11,17 +11,17 @@ public class ServerInformationProcessor : BaseProcessor
     {
         bcLSAddr bcmsg = (bcLSAddr)msg;
 
-        string s = bcmsg.Name;
-        foreach(var ip in bcmsg.Ips)
+        string s = "";
+        foreach(var ip in bcmsg.LSInfo.Ips)
         {
             s += " : "  + ip;
             if(ip.Contains("192.168.1"))
             {
                 MainUILogic.mInstance.m_TcpIP = ip;
-                MainUILogic.mInstance.m_TcpPort = bcmsg.Port;
+                MainUILogic.mInstance.m_TcpPort = bcmsg.LSInfo.Port;
             }
         }
-        Debug.Log(s);
+        Debug.Log(bcmsg.LSInfo.Name + s);
         //bcmsg.ServerName ="ClientName 127";
         //AsyncUdpClient.getInstance().SendTo("127.0.0.1", bcmsg);
         //bcmsg.ServerName = "ClientName 183";
