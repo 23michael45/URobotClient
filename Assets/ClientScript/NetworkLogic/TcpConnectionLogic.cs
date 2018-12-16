@@ -15,6 +15,8 @@ public class TcpConnectionLogic : MonoBehaviour
     public Button m_StopHeartbeatBtn;
     public Button m_CloseBtn;
 
+    public Text m_NameTxt;
+
 
     Coroutine m_HeartBeadCoroutine;
     bool m_HeartBeat;
@@ -26,6 +28,8 @@ public class TcpConnectionLogic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        m_NameTxt.text = "Connection:" + DateTime.Now.ToLongTimeString();
+
         m_HeartBeat = false;
 
         m_LoginBtn.onClick.AddListener(OnLogin);

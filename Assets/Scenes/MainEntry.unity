@@ -1231,8 +1231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b44018a3695dfc40bd063659fbaefd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ConnectBtn: {fileID: 388002156}
-  m_CloseBtn: {fileID: 1067799458}
 --- !u!1 &1346393230
 GameObject:
   m_ObjectHideFlags: 0
@@ -1770,6 +1768,7 @@ MonoBehaviour:
   m_StartHeartbeatBtn: {fileID: 142002444}
   m_StopHeartbeatBtn: {fileID: 1519201154}
   m_CloseBtn: {fileID: 1067799458}
+  m_NameTxt: {fileID: 1255510154}
   m_ParentUILogic: {fileID: 0}
 --- !u!1 &1822723474
 GameObject:
